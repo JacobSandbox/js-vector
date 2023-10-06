@@ -1,0 +1,17 @@
+{
+  "name": "js-vectors",
+  "version": "1.0.0",
+  "description": "javascript vector module",
+  "main": "./build/js-vector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vector"
+  ],
+  "author": "Jacob Salemi",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
