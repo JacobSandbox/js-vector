@@ -7,8 +7,7 @@ Javascript vector module. Basic vector class and calculations
 
 Basic:
 import Vector from "js-vector"
-let myVector = new Vector(x,y,z); // For 3D vector
-let myVector = new Vector(x,y);   // For 2D vector
+let myVector = new Vector(x,y);
 
 myVector.x // Can get or set properties directly.
 
@@ -41,5 +40,3 @@ NOTE: The following methods DO modify the vector.
    - Sets the vectors x,y,z values. Does not return anything.
   clone(vector)
    - Sets the vectors x,y,z values to the input vectors values.
-
-NOTE: ALL Z INPUTS MY BE IGNORED TO USE AS 2D VECTORS
